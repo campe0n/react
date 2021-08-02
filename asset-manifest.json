@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react/static/css/main.c3d74d53.chunk.css",
+    "main.js": "/react/static/js/main.f5f6d238.chunk.js",
+    "main.js.map": "/react/static/js/main.f5f6d238.chunk.js.map",
+    "runtime-main.js": "/react/static/js/runtime-main.4463d437.js",
+    "runtime-main.js.map": "/react/static/js/runtime-main.4463d437.js.map",
+    "static/js/2.d05891bc.chunk.js": "/react/static/js/2.d05891bc.chunk.js",
+    "static/js/2.d05891bc.chunk.js.map": "/react/static/js/2.d05891bc.chunk.js.map",
+    "index.html": "/react/index.html",
+    "static/css/main.c3d74d53.chunk.css.map": "/react/static/css/main.c3d74d53.chunk.css.map",
+    "static/js/2.d05891bc.chunk.js.LICENSE.txt": "/react/static/js/2.d05891bc.chunk.js.LICENSE.txt",
+    "static/media/eventplanning.5cc473a9.PNG": "/react/static/media/eventplanning.5cc473a9.PNG",
+    "static/media/holidaysearch.e6fd0b9b.PNG": "/react/static/media/holidaysearch.e6fd0b9b.PNG",
+    "static/media/workdayscheduler.72291d87.PNG": "/react/static/media/workdayscheduler.72291d87.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4463d437.js",
+    "static/js/2.d05891bc.chunk.js",
+    "static/css/main.c3d74d53.chunk.css",
+    "static/js/main.f5f6d238.chunk.js"
+  ]
+}
