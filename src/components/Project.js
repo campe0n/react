@@ -6,6 +6,9 @@ export default function Project() {
   return (
     <div>
       <h2>Projects</h2>
+      <p className="sub">
+        Click on the project images to go to the coressponsing github page.
+      </p>
       <h3>Holiday Search</h3>
       <a
         href="https://github.com/gannacon/Project_1"

@@ -17,9 +17,7 @@ header {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
-  display: flex;
   justify-content: space-between;
   background-color: lightblue;
 }
@@ -53,7 +51,7 @@ div {
 
 img {
   display: block;
-  width: 50%;
+  width: 40%;
   margin: 0 auto 0 auto;
 }
 
@@ -65,18 +63,33 @@ footer {
   background-color: lightblue;
 }
 
+button {
+  background-color: gold;
+  color: green;
+  border: none;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  margin: 0 1rem;
+}
+
 h1 {
   margin: 0 1rem;
   padding: 0;
+  color: white;
+  font-size: 1rem;
 }
 
 h2 {
   text-align: center;
   margin: 1rem 0 0 0;
+  color: gold;
+  font-size: 1rem;
 }
 
 h3 {
   margin: 1rem 0;
+  font-size: 1rem;
 }
 
 ul {
@@ -84,17 +97,36 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  margin: 0;
+  color: white;
+  font-size: 1;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: lightblue;
+  background-color: white;
+}
+
+a:focus {
+  background-color: rgb(61, 61, 68);
+}
+
+.sub {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: semilicbold;
+}
+
 .handles {
   margin: 0;
 }
 
-.buttonContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 5rem;
-}
 .contactinfo {
   display: flex;
   justify-content: start;
@@ -147,4 +179,87 @@ ul {
 .right {
   grid-row: 1/ 1;
   grid-column: 2/ 3;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.fBtn:hover {
+  background-color: lightblue;
+}
+
+@media only screen and (max-width: 320px) {
+  a {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  a {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  img {
+    width: 25%;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  div {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+  a {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  img {
+    width: 25%;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  div {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  h1 {
+    font-size: 2rem;
+  }
+  a {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  img {
+    width: 25%;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  div {
+    width: 60%;
+  }
 }

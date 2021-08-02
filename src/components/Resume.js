@@ -1,7 +1,7 @@
 export default function Resume() {
   return (
     <div>
-      <h2>Melvin Finn</h2>
+      <h2>Resume</h2>
       <div className="handles">
         <h3>Full Stack Developer</h3>
         <div className="contactinfo">
