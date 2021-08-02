@@ -4,7 +4,7 @@ Portofolio is my personal portfolio webpage. You can find my resume and ways to 
 
 ## URL link
 
-[Link to Application]("https://react-portfolio-mf.herokuapp.com/about" with title")
+[Link to Application](https://react-portfolio-mf.herokuapp.com/about)
 
 ## Screenshot
 
