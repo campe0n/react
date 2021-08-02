@@ -1,0 +1,150 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 5%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+}
+
+nav {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 0 0.5rem;
+}
+
+section {
+  width: 100%;
+  height: 90%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+div {
+  margin: 0 1rem;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+
+img {
+  display: block;
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+
+footer {
+  width: 100%;
+  height: 5%;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+h1 {
+  margin: 0 1rem;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 1rem 0 0 0;
+}
+
+h3 {
+  margin: 1rem 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.handles {
+  margin: 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+}
+.contactinfo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.infoDiv {
+  margin: 0 2rem 0 0;
+}
+
+.text {
+  color: black;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.xpItem {
+  font-size: 1rem;
+  color: black;
+}
+
+.row {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.xpRow {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+  grid-gap: 0;
+  margin: 0;
+}
+
+.left {
+  grid-row: 1/ 1;
+  grid-column: 1/ 1;
+  margin: 0;
+}
+
+.right {
+  grid-row: 1/ 1;
+  grid-column: 2/ 3;
+}
