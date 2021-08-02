@@ -7,7 +7,7 @@ export default function Project() {
     <div>
       <h2>Projects</h2>
       <p className="sub">
-        Click on the project images to go to the coressponsing github page.
+        Click on the project images to go to the github page.
       </p>
       <h3>Holiday Search</h3>
       <a
@@ -22,6 +22,9 @@ export default function Project() {
         Holiday search is a web application that enables users to search for
         holidays on a specific day.
       </p>
+      <a href="https://gannacon.github.io/Project_1/" className="url">
+        Link to Holiday Search
+      </a>
       <h3>The Event Planning Site</h3>
       <a
         href="https://github.com/brownnicholasj/the-event-planning"
@@ -35,6 +38,9 @@ export default function Project() {
         The event planning site enables users to create and manage several
         aspects of hosting an event.
       </p>
+      <a href="https://the-event-planning.herokuapp.com/" className="url">
+        Link to The Event Planning Site
+      </a>
       <h3>Day Scheduler</h3>
       <a
         href="https://github.com/campe0n/dplanner_mf"
@@ -48,6 +54,9 @@ export default function Project() {
         Day scheduler enables users to create and manage tasks throughout the
         day.
       </p>
+      <a href="https://campe0n.github.io/dplanner_mf/" className="url">
+        Link to Day Scheduler
+      </a>
     </div>
   );
 }

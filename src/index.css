@@ -19,7 +19,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: lightblue;
+  background-color: #4698ce;
 }
 
 nav {
@@ -60,7 +60,7 @@ footer {
   height: 5%;
   margin: 0;
   padding: 0;
-  background-color: lightblue;
+  background-color: #4698ce;
 }
 
 button {
@@ -120,7 +120,7 @@ a:focus {
   padding: 0;
   text-align: center;
   font-size: 1rem;
-  font-weight: semilicbold;
+  font-weight: lighter;
 }
 
 .handles {
@@ -193,6 +193,11 @@ a:focus {
 
 .fBtn:hover {
   background-color: lightblue;
+}
+
+.url {
+  color: lightblue;
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 320px) {
