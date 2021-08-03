@@ -3,7 +3,6 @@ import Project from "./components/Project";
 import Resume from "./components/Resume";
 import Nav from "./components/Nav";
 import Contact from "./components/Contact";
-import Button from "./components/Button";
 import githubLogo from "./images/githublogo.png";
 import linkedInLogo from "./images/linkedInLogo.png";
 
