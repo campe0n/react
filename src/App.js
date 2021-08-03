@@ -23,10 +23,13 @@ function App() {
         </Switch>
       </section>
       <footer>
-        <a href="https://github.com/campe0n">
+        <a href="https://github.com/campe0n" className="fBtn">
           <Button text="Github" />
         </a>
-        <a href="https://www.linkedin.com/in/melvin-finn-00a910206/">
+        <a
+          href="https://www.linkedin.com/in/melvin-finn-00a910206/"
+          className="fBtn"
+        >
           <Button text="LinkedIn" />
         </a>
       </footer>
