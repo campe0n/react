@@ -67,6 +67,43 @@ img {
   margin: 0 auto 0 auto;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 30%;
+  border-radius: 0.25rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+input[type="submit"] {
+  background-color: var(--red);
+  color: var(--gainsboro);
+  margin: 1rem 0;
+  border-radius: 0.25rem;
+  width: 10%;
+  height: 100%;
+}
+
+textarea {
+  height: 10rem;
+  width: 31.5%;
+}
+
+label {
+  width: 1/2;
+  border-radius: 0.25rem;
+  margin: 0.25rem 0;
+}
+
 footer {
   width: 100%;
   height: 5%;
