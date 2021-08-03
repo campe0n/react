@@ -242,6 +242,14 @@ a:focus {
   grid-column: 2/ 3;
 }
 
+.logo {
+  width: 2rem;
+  height: 2rem;
+  opacity: 50%;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
 .fBtn {
   color: gainsboro;
 }

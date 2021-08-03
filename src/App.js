@@ -4,6 +4,8 @@ import Resume from "./components/Resume";
 import Nav from "./components/Nav";
 import Contact from "./components/Contact";
 import Button from "./components/Button";
+import githubLogo from "./images/githublogo.png";
+import linkedInLogo from "./images/linkedInLogo.png";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -24,13 +26,13 @@ function App() {
       </section>
       <footer>
         <a href="https://github.com/campe0n" className="fBtn">
-          <Button text="Github" />
+          <img src={githubLogo} className="logo" />
         </a>
         <a
           href="https://www.linkedin.com/in/melvin-finn-00a910206/"
           className="fBtn"
         >
-          <Button text="LinkedIn" />
+          <img src={linkedInLogo} className="logo" />
         </a>
       </footer>
     </Router>
