@@ -8,6 +8,6 @@ This portfolio utilizes react. In this application, you can find my resume and w
 
 ## Screenshot
 
-![Portfolio Screenshot](https://github.com/campe0n/react/blob/main/src/images/ss.PNG)
+![Portfolio Screenshot](https://github.com/campe0n/react/blob/main/src/images/ssv2.PNG)
 
 ---
