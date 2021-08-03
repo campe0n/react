@@ -1,9 +1,9 @@
-import Header from "./components/Header";
 import About from "./components/About";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
+import Nav from "./components/Nav";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Button from "./components/Button";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -11,7 +11,8 @@ function App() {
   return (
     <Router>
       <header>
-        <Header />
+        <h1>Melvin Finn</h1>
+        <Nav />
       </header>
       <section>
         <Switch>
@@ -22,7 +23,12 @@ function App() {
         </Switch>
       </section>
       <footer>
-        <Footer />
+        <a href="https://github.com/campe0n">
+          <Button text="Github" />
+        </a>
+        <a href="https://www.linkedin.com/in/melvin-finn-00a910206/">
+          <Button text="LinkedIn" />
+        </a>
       </footer>
     </Router>
   );

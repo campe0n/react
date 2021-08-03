@@ -1,14 +1,23 @@
+:root {
+  --blue: #1985a1;
+  --red: #ff0035;
+  --silver: #c5c3c6;
+  --gainsboro: #dcdcdd;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
   height: 100%;
 }
 
 main {
   height: 100%;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 header {
@@ -19,7 +28,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #4698ce;
+  background-color: var(--blue);
 }
 
 nav {
@@ -36,7 +45,7 @@ section {
   height: 90%;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: var(--gainsboro);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -60,12 +69,15 @@ footer {
   height: 5%;
   margin: 0;
   padding: 0;
-  background-color: #4698ce;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
-  background-color: gold;
-  color: green;
+  background-color: var(--red);
+  color: var(--gainsboro);
   border: none;
   width: 4rem;
   height: 2rem;
@@ -76,14 +88,14 @@ button {
 h1 {
   margin: 0 1rem;
   padding: 0;
-  color: white;
+  color: var(--gainsboro);
   font-size: 1rem;
 }
 
 h2 {
   text-align: center;
   margin: 1rem 0 0 0;
-  color: gold;
+  color: black;
   font-size: 1rem;
 }
 
@@ -100,10 +112,14 @@ ul {
 a {
   text-decoration: none;
   margin: 0;
-  color: white;
+  color: gainsboro;
   font-size: 1;
   font-weight: bold;
   font-size: 1rem;
+}
+
+p {
+  color: black;
 }
 
 a:hover {
@@ -181,22 +197,12 @@ a:focus {
   grid-column: 2/ 3;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .fBtn:hover {
   background-color: lightblue;
 }
 
 .url {
-  color: lightblue;
+  color: var(--red);
   font-size: 1rem;
 }
 
@@ -244,7 +250,7 @@ a:focus {
     font-size: 2rem;
   }
   div {
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -265,6 +271,6 @@ a:focus {
     font-size: 2rem;
   }
   div {
-    width: 60%;
+    width: 50%;
   }
 }
