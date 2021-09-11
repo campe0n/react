@@ -1,8 +1,8 @@
-import About from "./components/About";
-import Project from "./components/Project";
-import Resume from "./components/Resume";
+import About from "./pages/About";
+import Project from "./pages/Project";
+import Resume from "./pages/Resume";
 import Nav from "./components/Nav";
-import Contact from "./components/Contact";
+import Contact from "./pages/Contact";
 import githubLogo from "./images/githublogo.png";
 import linkedInLogo from "./images/linkedInLogo.png";
 
@@ -17,6 +17,7 @@ function App() {
       </header>
       <section>
         <Switch>
+          <Route path="/react" component={About} />
           <Route path="/about" component={About} />
           <Route path="/project" component={Project} />
           <Route path="/Resume" component={Resume} />

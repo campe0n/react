@@ -9,8 +9,7 @@ export default function About() {
     <div>
       <h2>About Me</h2>
       <p style={styles.p}>
-        Hello, My name is Melvin. I was born in Guatemala and came to the US
-        when I was 8.I enjoy coding and playing video games.
+        Hello, My name is Melvin. I'm a full stack developer. 
       </p>
     </div>
   );
