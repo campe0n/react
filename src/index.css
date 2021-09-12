@@ -25,15 +25,28 @@ header {
 }
 
 nav {
-  display: flex;
-  list-style-type: none;
   height: 100%;
-  justify-content: center;
-  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-  margin: 0 0.5rem;
+  display: inline;
+  margin: 0 0.25rem;
+  width: 100%;
+  height: 100%;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
 }
 
 section {
@@ -42,12 +55,14 @@ section {
   margin: 0;
   padding: 0;
   background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 div {
-  margin: 0 1rem;
   padding: 0;
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -129,7 +144,7 @@ h1 {
 
 h2 {
   text-align: center;
-  margin: 1rem 0 0 0;
+  margin: 0;
   color: black;
   font-size: 1rem;
 }
@@ -146,6 +161,8 @@ ul {
 
 a {
   text-decoration: none;
+  width: 100%;
+  height: 100%;
   margin: 0;
   color: gainsboro;
   font-weight: bold;
@@ -155,6 +172,7 @@ a {
 
 p {
   color: black;
+  margin: 0;
 }
 
 a:hover {
