@@ -25,14 +25,14 @@ function App() {
         </Switch>
       </section>
       <footer>
-        <a href="https://github.com/campe0n" className="fBtn">
-          <img src={githubLogo} className="logo" />
+        <a href="https://github.com/campe0n" class="fBtn">
+          <img src={githubLogo} className="logo" alt="Github Button" />
         </a>
         <a
           href="https://www.linkedin.com/in/melvin-finn-00a910206/"
-          className="fBtn"
+          class="fBtn"
         >
-          <img src={linkedInLogo} className="logo" />
+          <img src={linkedInLogo} className="logo" alt="Linked In Button" />
         </a>
       </footer>
     </Router>
