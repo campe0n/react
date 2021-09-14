@@ -4,16 +4,11 @@ import holidaySearch from "../images/holidaysearch.PNG";
 import eventPlanning from "../images/eventplanning.PNG";
 import workdayscheduler from "../images/workdayscheduler.PNG";
 
-const styles = {
-  p: {
-    margin: "1rem",
-  },
-};
-
 export default function Project() {
   return (
     <div class="deck">
-      <p style={styles.p}>Click on the images to be taken to the github page</p>
+      <h2>My projects</h2>
+      <p>Click on the images to be taken to the github page</p>
       <div class="overlay">
         <div class="imgOverlay">
           <a
