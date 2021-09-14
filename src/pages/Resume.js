@@ -1,6 +1,8 @@
+import "../index.css";
+
 export default function Resume() {
   return (
-    <div>
+    <div class="deck">
       <h2>Resume</h2>
       <div className="handles">
         <h3>Full Stack Developer</h3>
@@ -73,6 +75,12 @@ export default function Resume() {
           </ul>
         </div>
       </div>
+      {/* <iframe
+        title="Resume"
+        src="../images/Resume V2.docx.pdf"
+        height="1000"
+        width="700"
+      ></iframe> */}
     </div>
   );
 }

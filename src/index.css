@@ -67,14 +67,17 @@ div {
   height: auto;
 }
 
-div .deck {
-  background-color: black;
+.deck {
+  width: 100%;
+  height: auto;
+  margin: 1rem;
 }
 
 img {
-  margin: 1rem;
-  width: 90%;
-  height: 90%;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 a .projectImage {
@@ -264,7 +267,7 @@ a:focus {
   width: 2rem;
   height: 2rem;
   opacity: 50%;
-  margin: 0.25rem 1rem;
+  margin: 0.35rem 1rem;
   cursor: pointer;
 }
 

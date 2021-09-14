@@ -1,6 +1,8 @@
+import "../index.css";
+
 export default function Contact() {
   return (
-    <div>
+    <div class="deck">
       <h2>Contact Me</h2>
       <form>
         <label for="name">Name:</label>
