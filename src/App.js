@@ -1,3 +1,5 @@
+import "./index.css";
+
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Resume from "./pages/Resume";
