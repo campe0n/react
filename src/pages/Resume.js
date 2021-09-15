@@ -17,7 +17,7 @@ export default function Resume() {
           </div>
         </div>
       </div>
-      <p>
+      <p class="resume">
         Full Stack developer with experience in Tailwind CSS. My greatest
         strengths are working alone and being resourceful. These strengths are
         helpful when it comes to writing and debugging code.

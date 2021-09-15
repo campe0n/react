@@ -25,6 +25,9 @@ export default function Project() {
           Holiday Search was the first project I worked on for my bootcamp. The
           objective was to create an application that utilizes an api.
         </p>
+        <a href="https://gannacon.github.io/Project_1/" class="link">
+          Link to application
+        </a>
         <div class="overlay">
           <div class="imgOverlay">
             <a
@@ -42,6 +45,9 @@ export default function Project() {
           guests should the host need them later. I worked the front end for
           this project.
         </p>
+        <a href="https://the-event-planning.herokuapp.com/" class="link">
+          Link to application
+        </a>
         <div class="overlay">
           <div class="imgOverlay">
             <a
@@ -57,6 +63,9 @@ export default function Project() {
           Work Day Scheduler allows users to manage their day by keeping track
           of events throught the day.
         </p>
+        <a href="https://campe0n.github.io/dplanner_mf/" class="link">
+          Link to application
+        </a>
       </div>
     </div>
   );
