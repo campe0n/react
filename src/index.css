@@ -76,7 +76,6 @@ div {
 .deck {
   width: 90%;
   height: 100%;
-  margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -207,7 +206,6 @@ h1 {
 
 h2 {
   text-align: center;
-  margin: 0;
   color: black;
   font-size: 1rem;
   padding: 0;
@@ -314,6 +312,9 @@ a:hover {
   input[type="submit"] {
     width: 40%;
   }
+  .deck {
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 425px) {
@@ -375,6 +376,9 @@ a:hover {
   }
   form {
     width: 50%;
+  }
+  .deck {
+    width: 60%;
   }
 }
 
