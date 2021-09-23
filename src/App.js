@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Project from "./pages/Project";
 import Resume from "./pages/Resume";
 import Nav from "./components/Nav";
+import Button from "./components/Button";
 import Contact from "./pages/Contact";
 import githubLogo from "./images/githublogo.png";
 import linkedInLogo from "./images/linkedInLogo.png";
@@ -27,15 +28,16 @@ function App() {
         </Switch>
       </section>
       <footer>
-        <a href="https://github.com/campe0n" class="fBtn">
-          <img src={githubLogo} className="logo" alt="Github Button" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/melvin-finn-00a910206/"
-          class="fBtn"
-        >
-          <img src={linkedInLogo} className="logo" alt="Linked In Button" />
-        </a>
+        <Button
+          title="Github"
+          image={githubLogo}
+          link="https://github.com/campe0n"
+        />
+        <Button
+          title="LinkedIn"
+          image={linkedInLogo}
+          link="www.linkedin.com/in/melvinfinn"
+        />
       </footer>
     </Router>
   );
