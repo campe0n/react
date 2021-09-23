@@ -47,7 +47,7 @@ li {
   height: 100%;
 }
 
-li a {
+a {
   color: white;
   text-align: center;
   text-decoration: none;
@@ -90,9 +90,19 @@ div {
   align-items: flex-start;
 }
 
-.imgContainer {
+#imgContainer {
   width: 100%;
-  height: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay {
@@ -111,7 +121,7 @@ img {
   padding: 0;
   margin: 0 auto;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .projectImage {
