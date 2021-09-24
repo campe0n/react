@@ -6,7 +6,7 @@ export default function About() {
     <div className="deck">
       <h2>About Me</h2>
       <p>Hello, My name is Melvin. I'm a full stack developer.</p>
-      <img src={photo} alt="Melvin Finn"></img>
+      <img src={photo} alt="Melvin Finn" id="selfie"></img>
     </div>
   );
 }

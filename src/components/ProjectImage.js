@@ -6,20 +6,11 @@ import "../index.css";
 export default function ProjectImage({ title, appLink, githubLink, src }) {
   return (
     <div id="imgContainer">
+      <h2>{title}</h2>
       <img src={src} alt={title}></img>
       <div id="btnContainer">
-        <Button
-          title="Button to Github"
-          link={githubLink}
-          image={githubLogo}
-          text="Github"
-        />
-        <Button
-          title="Button to Application"
-          link={appLink}
-          image={githubLogo}
-          text="Application"
-        />
+        <Button title="Github" link={githubLink} />
+        <Button title="Application" link={appLink} />
       </div>
     </div>
   );

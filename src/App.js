@@ -1,10 +1,9 @@
 import "./index.css";
-
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Resume from "./pages/Resume";
 import Nav from "./components/Nav";
-import Button from "./components/Button";
+import Icon from "./components/Icon";
 import Contact from "./pages/Contact";
 import githubLogo from "./images/githublogo.png";
 import linkedInLogo from "./images/linkedInLogo.png";
@@ -28,12 +27,12 @@ function App() {
         </Switch>
       </section>
       <footer>
-        <Button
+        <Icon
           title="Github"
           image={githubLogo}
           link="https://github.com/campe0n"
         />
-        <Button
+        <Icon
           title="LinkedIn"
           image={linkedInLogo}
           link="www.linkedin.com/in/melvinfinn"
