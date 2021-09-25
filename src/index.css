@@ -60,17 +60,18 @@ a {
 }
 
 .icons {
-  width: 10%;
+  width: 1rem;
   height: auto;
   outline: none;
+  margin: 0;
+  padding: 0;
 }
 
-.deck {
-  width: 100%;
-  height: 100%;
-  padding: 1rem;
-  display: flex;
-  flex-direction: row;
+#iconImg {
+  width: 2rem;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 section {
@@ -127,6 +128,7 @@ div {
 img {
   display: block;
   padding: 0;
+  margin: 0;
   width: 100%;
   height: auto;
 }
@@ -194,21 +196,12 @@ a:hover {
 button {
   width: 5rem;
   height: 2rem;
-  margin: 0 1rem;
+  margin: 1rem;
   outline: none;
   background-color: var(--blue);
-}
-
-object {
-  margin: 0 auto;
-  width: 10rem;
-  height: 8rem;
-}
-
-iframe {
-  margin: 0 auto;
-  width: 100rem;
-  height: 45rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 #pdf {
@@ -218,7 +211,7 @@ iframe {
 }
 
 #resume {
-  margin: 0 auto;
+  margin: 0.5rem 0;
 }
 
 @media screen and (min-width: 320px) {

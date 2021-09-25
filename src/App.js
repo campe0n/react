@@ -6,6 +6,7 @@ import Icon from "./components/Icon";
 import Contact from "./pages/Contact";
 import githubLogo from "./images/githublogo.png";
 import linkedInLogo from "./images/linkedInLogo.png";
+import Resume from "./pages/Resume";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -21,7 +22,8 @@ function App() {
           <Route path="/react" component={About} />
           <Route path="/about" component={About} />
           <Route path="/project" component={Project} />
-          <Route path="/Contact" component={Contact} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/resume" component={Resume} />
         </Switch>
       </section>
       <footer>
