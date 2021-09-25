@@ -1,7 +1,6 @@
 import "./index.css";
 import About from "./pages/About";
 import Project from "./pages/Project";
-import Resume from "./pages/Resume";
 import Nav from "./components/Nav";
 import Icon from "./components/Icon";
 import Contact from "./pages/Contact";
@@ -22,7 +21,6 @@ function App() {
           <Route path="/react" component={About} />
           <Route path="/about" component={About} />
           <Route path="/project" component={Project} />
-          <Route path="/Resume" component={Resume} />
           <Route path="/Contact" component={Contact} />
         </Switch>
       </section>

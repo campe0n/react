@@ -38,6 +38,8 @@ nav {
 ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  overflow: hidden;
 }
 
 li {
@@ -125,7 +127,6 @@ div {
 img {
   display: block;
   padding: 0;
-  margin: 0 auto;
   width: 100%;
   height: auto;
 }
@@ -133,6 +134,7 @@ img {
 #selfie {
   height: auto;
   width: 100%;
+  margin: 0 auto;
 }
 
 .projectImage {
@@ -189,78 +191,6 @@ a:hover {
   background-color: var(--gainsboro);
 }
 
-.sub {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: lighter;
-}
-
-.handles {
-  margin: 0;
-}
-
-.contactinfo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 1rem 0;
-  width: 100%;
-}
-
-.infoDiv {
-  margin: 0 2rem 0 0;
-}
-
-.text {
-  color: black;
-  font-size: 1rem;
-  padding: 0;
-  margin: 0;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.xpItem {
-  font-size: 1rem;
-  color: black;
-}
-
-.row {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.xpRow {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: 30% 70%;
-  grid-template-rows: 100%;
-  grid-gap: 0;
-  margin: 0;
-}
-
-.left {
-  grid-row: 1/ 1;
-  grid-column: 1/ 1;
-  margin: 0;
-}
-
-.right {
-  grid-row: 1/ 1;
-  grid-column: 2/ 3;
-}
-
-.url {
-  color: var(--red);
-  font-size: 1rem;
-}
-
 button {
   width: 5rem;
   height: 2rem;
@@ -269,9 +199,34 @@ button {
   background-color: var(--blue);
 }
 
+object {
+  margin: 0 auto;
+  width: 10rem;
+  height: 8rem;
+}
+
+iframe {
+  margin: 0 auto;
+  width: 100rem;
+  height: 45rem;
+}
+
+#pdf {
+  color: black;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+#resume {
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 320px) {
   .icons {
     width: 30%;
+  }
+  #selfie {
+    width: 50%;
   }
 }
 
@@ -287,7 +242,7 @@ button {
   }
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .deck {
     width: 90%;
   }
@@ -295,7 +250,7 @@ button {
     width: 45%;
   }
   #selfie {
-    width: 40%;
+    width: 30%;
   }
   .icons {
     width: 20%;
@@ -304,13 +259,19 @@ button {
 
 @media screen and (min-width: 1024px) {
   .deck {
-    width: 50%;
+    width: 90%;
+  }
+  #projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
   }
   img {
-    width: 65%;
+    width: 90%;
   }
   #selfie {
-    width: 30%;
+    width: 20%;
   }
   .icons {
     width: 20%;
@@ -325,13 +286,13 @@ button {
     font-size: 1.5rem;
   }
   .deck {
-    width: 50%;
+    width: 90%;
   }
   img {
-    width: 40%;
+    width: 90%;
   }
   #selfie {
-    width: 30%;
+    width: 15%;
   }
   .icons {
     width: 15%;

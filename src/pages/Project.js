@@ -4,6 +4,7 @@ import holidaySearch from "../images/holidaysearch.PNG";
 import eventPlanning from "../images/eventplanning.PNG";
 import workdayscheduler from "../images/workdayscheduler.PNG";
 import ProjectImage from "../components/ProjectImage";
+import Button from "../components/Button";
 
 export default function Project({ title, src, link }) {
   return (

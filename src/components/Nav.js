@@ -9,9 +9,6 @@ export default function Nav() {
           <a href="/project">Projects</a>
         </li>
         <li>
-          <a href="/resume">Resume</a>
-        </li>
-        <li>
           <a href="/contact">Contact</a>
         </li>
       </ul>
